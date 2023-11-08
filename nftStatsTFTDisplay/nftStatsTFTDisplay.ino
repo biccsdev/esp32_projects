@@ -4,8 +4,8 @@
 #include <ArduinoJson.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Totalplay-D2AA";
-const char* password = "D2AA7A05qNdQq3H2";
+const char* ssid = "";
+const char* password = "";
 
 TFT_eSPI tft = TFT_eSPI();
 
