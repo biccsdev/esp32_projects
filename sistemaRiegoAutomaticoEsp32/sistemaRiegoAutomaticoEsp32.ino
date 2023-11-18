@@ -2,7 +2,7 @@
 
 #define BLYNK_TEMPLATE_ID "TMPL2IuVI48-o"
 #define BLYNK_TEMPLATE_NAME "PLANTA"
-#define BLYNK_AUTH_TOKEN "ijVRWSFguVQnQZ6Y2OnQ0uVH5IImIvnZ"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <BlynkSimpleEsp32.h>
@@ -14,8 +14,8 @@
 char auth[] = BLYNK_AUTH_TOKEN;
 BlynkTimer timer;
 
-const char* ssid = "Totalplay-D2AA";
-const char* password = "D2AA7A05qNdQq3H2";
+const char* ssid = "";
+const char* password = "";
 
 const char* ntpServer1 = "pool.ntp.org";
 const long gmtOffset_sec = 0;
