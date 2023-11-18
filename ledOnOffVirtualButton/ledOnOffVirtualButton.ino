@@ -10,7 +10,7 @@
 /* Fill-in information from Blynk Device Info here */
 #define BLYNK_TEMPLATE_ID           "TMPL2jt2uy32z"
 #define BLYNK_TEMPLATE_NAME         "LED ON OFF"
-#define BLYNK_AUTH_TOKEN            "POD6Q44vI7mEdiC2pKKiTgqSGfnHgY8k"
+#define BLYNK_AUTH_TOKEN            ""
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
