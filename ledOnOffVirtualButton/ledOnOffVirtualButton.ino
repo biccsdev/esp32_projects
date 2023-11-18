@@ -19,10 +19,9 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-// Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Totalplay-D2AA";
-char pass[] = "D2AA7A05qNdQq3H2";
+char ssid[] = "";
+char pass[] = "";
 
 const int ledPin = D0;
 WidgetLED led1(V0);
