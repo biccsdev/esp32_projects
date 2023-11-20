@@ -1,20 +1,24 @@
-// include the library code:
 #include <LiquidCrystal.h>
- 
-// initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
+//Pines de conexión
+LiquidCrystal lcd(22,23,5,18,19,21);
  
 void setup() {
-  // set up the LCD's number of columns and rows:
-  lcd.begin(16, 2);
-  // Print a message to the LCD.
-  lcd.print("Hello, World!");
+  // Inicializar LCD
+  lcd.begin(16, 2); //Dimensión del LCD
 }
  
 void loop() {
-  // set the cursor to column 0, line 1
-  // (note: line 1 is the second row, since counting begins with 0):
-  lcd.setCursor(0, 1);
-  // print the number of seconds since reset:
-  lcd.print(millis() / 1000);
+  lcd.setCursor(0, 0); //Posición línea 1 del LCD (Col, fil)
+  lcd.print("e/acc"); 
+  lcd.setCursor(0, 1); //Posición línea 2 del LCD
+  lcd.print("we are so back!");
+
+//Comandos útiles
+//https://www.arduino.cc/reference/en/libraries/liquidcrystal/ 
+//lcd.scrollDisplayLeft();
+//lcd.scrollDisplayRight();
+//lcd.rightToLeft();
+//lcd.blink();
+
+  delay(1000);
 }
